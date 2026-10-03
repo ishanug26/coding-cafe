@@ -22,3 +22,21 @@ Ans 7. It printed the following when the command was carried out.
 It changed 2 files in total.
 
 Ans 8. The first seven characters (27de216) are called a short commit hash (or short SHA-1 checksum). They are a unique key that helps to identify the specific commit in the repository history.
+
+Ans 9. The 4 steps of git cycle are:
+-> Edit
+-> Check
+-> Stage
+-> Commit
+
+Ans 10. `README.md` is given a standard name and is placed directly into the root direcotry because platforms like GitHub automatically detect and render it on the project's front page. It provides visitors and collaborators with an immediate overview of the project and also helps the collaborators communicate with the 
+
+Ans 11. `gh auth login` authenticates the terminal using web authentication and allows you to access your github account through your machine. This eliminates the need for you to type your password when you need to execute `git push`. 
+
+Ans 12. Refreshing the repository page shows the contents of `README.md` formatted on the home page of the repository. GitHub automatically renders README.md because it is designated as the repository's default landing document to tell the visitors of the repository about the current repository.
+
+Ans 13. Running `git log --oneline` shows that pushing did not affect the local commit history or hash at all. It updated the tracking pointers and now the origin points to the same commit as your local master head.
+
+Ans 14. A private repository exists on GitHub's servers but it limits the access of the repository to the its original owner and the collaborators invited by the owner, therefore keeping the code hidden from the general public. If a respository does not exist on GitHub at all, no remote copy or history exists. 
+
+
